@@ -1,0 +1,123 @@
+.projects {
+  padding-top: 64px;
+}
+
+.projects-title {
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: rgba(250, 250, 250, 0.4);
+margin-bottom: 32px;
+}
+
+/* .swiper-projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
+  } */
+
+.projects-swiper-slide {
+border-radius: 24px;
+width: 343px;
+background-color: #FAFAFA;
+overflow: hidden;
+margin-bottom: 32px;
+
+}
+
+.project-tech-skills {
+    padding-top: 32px;
+    padding-left: 32px;
+    background-color: #fafafa;
+}
+
+.tech-skills-list {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 96px;
+}
+
+.tech-skills-item {
+border: 1px solid rgba(28, 29, 32, 0.2);
+border-radius: 60px;
+padding: 13px 18px;
+font-family: "Inter Tight", sans-serif;
+font-weight: 500;
+font-size: 16px;
+letter-spacing: -0.02em;
+color: #1c1d20;
+}
+
+.projects-text {
+    font-family: "Inter Tight", sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 1.17;
+letter-spacing: -0.03em;
+color: #1c1d20;
+padding-right: 32px;
+margin-bottom: 32px;
+}
+
+.project-link {
+display: block;
+border-radius: 60px;
+padding: 13px 32px;
+width: 141px;
+height: 45px;
+background-color: #ed3b44;
+margin-bottom: 32px;
+}
+
+.project-image {
+padding: 100px 13px;
+background-color: #242527;
+}
+
+@media screen and (min-width: 768px) {
+    .projects-swiper-slide {
+        width: 704px;
+}
+.project-tech-skills {
+    padding-top: 64px;
+    padding-left: 64px;
+    padding-right: 146px;
+}
+.tech-skills-list {
+    margin-bottom: 164px;
+}
+.projects-text {
+font-size: 44px;
+line-height: 1;
+padding: 0;
+}
+
+.project-link{
+padding: 18px 50px;
+width: 177px;
+height: 55px;
+margin-bottom: 64px;
+}
+
+.project-image {
+    padding: 120px 45px;
+
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .projects {
+    padding-top: 96px;
+  }
+
+  .projects-swiper-slide {
+    display: flex;
+    flex-direction: row;
+}
+
+}
