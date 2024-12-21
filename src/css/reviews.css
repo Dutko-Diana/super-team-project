@@ -1,0 +1,44 @@
+.header-reviews {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.4);
+}
+.review-gallery-item {
+}
+.review-gallery-link {
+}
+.avatar {
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+}
+.review-info {
+}
+.review-author {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+.review-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.6);
+}
+.gallery-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 20px;
+  padding: 32px 24px;
+  width: 343px;
+  height: 302px;
+}
