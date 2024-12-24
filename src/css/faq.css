@@ -45,6 +45,7 @@ top: -20px;
   justify-content: space-between;
   gap: 44px;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 
 
@@ -53,6 +54,7 @@ top: -20px;
   font-weight: 600;
   font-size: 20px;
   letter-spacing: -0.02em;
+  
 }
 
 .arrow-icon-box {
@@ -72,8 +74,59 @@ cursor: pointer;
   stroke-width: 2px;
   stroke: #fafafa;
   fill: transparent;
+  transition: transform 0.5s ease-in;
 }
+
+
 
 .accordion-text {
   color: rgba(250, 250, 250, 0.6);
+    transition: 0.5s ease-in;
+
 }
+
+
+.active {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.accordion-item.active .arrow-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-hover {
+  display: none;
+}
+
+/* ============tablet============================ */
+
+@media screen and (min-width: 768px) {
+
+  .faq-section {
+      padding-top: 96px;
+  
+    }
+
+  .arrow-icon-box {
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+    }
+
+  .accordion-header {
+    padding-bottom: 26px;
+  }
+
+  .accordion-item {
+    padding: 32px 0 24px;
+    max-width: 704px;
+  }
+}
+
+/* =========== Desktop================= */
+
+
+
